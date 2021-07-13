@@ -1,0 +1,49 @@
+body {
+    background-color: #008f5d;
+    font-family: 'Merriweather', serif;
+}
+
+.title {
+    color: #FFF400;
+}
+
+
+.formTitle {
+    color: #fe2116;
+}
+
+main {
+    padding: 150px 0;
+}
+
+.navbar-toggler-icon,
+footer {
+    font-size: 12px;
+}
+
+nav img {
+    width: 32px;
+    margin-right: 10px;
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    main {
+        padding: 120px 0;
+    }
+
+    .nav-link,
+    footer {
+        font-size: 16px;
+    }
+
+    nav #titulo{
+        font-size: 24px;
+    }
+
+
+    nav img {
+        width: 64px;
+    }
+
+}

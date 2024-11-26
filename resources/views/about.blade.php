@@ -7,7 +7,7 @@
 <div class="container">
     <div class="row">
 
-        <div class="col-12 col-lg-6  mx-auto">
+        <div class="col-12 col-lg-6  mx-auto shadow rounded">
             <div class="text-center">
                 <h1 class="display-8 mb-0 title">¿Quiénes somos?</h1>
             </div>

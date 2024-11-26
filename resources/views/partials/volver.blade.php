@@ -1,1 +1,1 @@
-<a class="btn btn-outline-primary" href="{{route('curso.index')}}">Cancelar</a>
+<a class="btn btn-outline-primary" href="{{route('curso.index')}}">Regresar</a>

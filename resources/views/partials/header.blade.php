@@ -11,13 +11,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="nav nav-pills ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link {{setActive('project.index')}}"
+                    <li class="nav-item"><a class="nav-link {{setActivo('curso.index')}}"
+                        href="{{route('curso.index')}}">Nuestros Cursos</a></li>
+                <li class="nav-item"><a class="nav-link {{setActivo('about')}}" href="{{route('about')}}">¿Quiénes
+                        somos?</a></li>
+                <li class="nav-item"><a class="nav-link {{setActivo('contacto.create')}}"
+                        href="{{route('contacto.create')}}">Contacto</a>
+                </li>
+                    {{-- <li class="nav-item"><a class="nav-link {{setActivo('project.index')}}"
                             href="{{route('curso.index')}}">Nuestros Cursos</a></li>
-                    <li class="nav-item"><a class="nav-link {{setActive('about')}}" href="{{route('about')}}">¿Quiénes
+                    <li class="nav-item"><a class="nav-link {{setActivo('about')}}" href="{{route('about')}}">¿Quiénes
                             somos?</a></li>
-                    <li class="nav-item"><a class="nav-link {{setActive('contact')}}"
+                    <li class="nav-item"><a class="nav-link {{setActivo('contact')}}"
                             href="{{route('contacto.create')}}">Contacto</a>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
         </div>

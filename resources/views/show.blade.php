@@ -50,6 +50,10 @@
         <strong class="text-secondary">Sumilla</strong>
         <p class="text-secondary">{{$curso->sumilla}}</p>
 
+
+        <div class="d-grid gap-2">
+            @include('partials.volver')
+        </div>
     </div>
 
 </div>
